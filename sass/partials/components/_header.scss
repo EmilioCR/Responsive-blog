@@ -1,0 +1,60 @@
+.header-list {
+	margin: 0 auto;
+
+	li {
+		padding: 5px 0;
+		border-bottom: 1px solid #000;
+		color: #000;
+		font-size: 15px;
+	}
+
+}
+
+.header-logo {
+	width: 20%;
+}
+
+// 
+// Media query Header
+// 
+@media only screen and (min-width: 660px) {
+	// 
+	// nav header
+	// 
+	.nav-header {
+		text-align: initial;
+		position: relative;
+		border-bottom: 1px solid #000;
+
+		// 
+		// Logo Header
+		// 
+		.header-logo {
+			width: 40%;
+		}
+		
+		// 
+		// li nav header
+		//
+		li {
+			display: inline-block;
+			border-bottom: initial;
+			margin: 0 15px;
+			font-size: 18px;
+
+			&:hover {
+				color: #f1ca2f;
+			}
+		}
+
+		// 
+		// li nav header less logo
+		//
+		.nav-menu {
+			position: absolute;
+			top: 20px;
+			right: 0;
+		}
+
+	}			
+}

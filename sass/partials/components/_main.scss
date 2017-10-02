@@ -1,0 +1,97 @@
+// 
+// Ads
+// 
+.ads {
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+}
+
+// 
+// Wrapper
+// 
+.wrapper {
+	text-align: left;
+	margin: 0 auto;
+	display: block;	
+}
+
+// 
+// Post
+// 
+.post {
+	padding: 3%;
+
+	ul {
+		text-align: right;
+	}
+}
+
+.social-logos {
+	display: inline-block;
+	width: 10%;
+}
+
+// 
+// Related Posts
+// 
+.related-posts {
+	background-color: #fcd72b;
+	padding: 3%;
+	text-align: center;
+	margin: 10% 0;
+}
+
+.related-dates {
+	text-align: right;
+}
+
+.related-post {
+	background-color: #f1ca2f;
+	padding: 0 3%;
+}
+
+// 
+// Media query main
+// 
+@media only screen and (min-width: 660px) {
+	// Ads
+	.ads {
+		width: 20%;
+	}
+	
+	// Wrapper
+	.wrapper {
+		width: 60%;
+	}
+	
+	// Post
+	.post {
+		h1 {
+			font-size: 30px;
+			text-align: center;
+		}
+
+		img {
+			margin: 0 auto;
+			display: block;
+		}
+
+		ul {
+			text-align: right;
+		}
+	}
+
+	// Social-logos
+	.social-logos {
+		width: 5%;
+	}
+
+	// 
+	// Related Posts
+	//
+	.related-post {
+		display: inline-block;
+		width: 25%;
+	}
+}

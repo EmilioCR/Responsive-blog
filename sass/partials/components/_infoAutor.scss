@@ -1,0 +1,52 @@
+.info-autor {
+	background-color: #fcd72b;
+	position: relative;
+	padding: 5%;
+	font-size: 15px;
+
+	a {
+		color: #373737;
+	}
+}
+
+.photo {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+
+.about-autor {
+	display: inline-block;
+	width: 50%;
+}
+
+.photo-autor {
+	width: 100%;
+}
+
+.autor-name {
+	display: inline-block;
+}
+
+// 
+// Media query autor
+//
+
+ @media only screen and (min-width: 660px) {
+ 	.info-autor {
+ 		width: 40%;
+ 		font-size: 17px;
+ 		text-align: left;
+ 		margin: 0 auto;
+ 		padding: 2%;
+ 	}
+	
+	.about-autor {
+		font-size: 15px;
+	}
+
+ 	.autor-name {
+ 		display: block;
+ 	}
+
+ }
