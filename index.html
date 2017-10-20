@@ -25,8 +25,13 @@
 	</nav>
 	
   </header>
-
-	<a href="#"><img src="img/ad1.png" alt="First Ad" class="ads"></a>
+  	<a href="#">
+		<picture>
+			<source media="(max-width: 700px)" srcset="img/ad1-small.png">
+			<source media="(min-width: 1062px)" srcset="img/ad1.png" class="ads">
+			<img src="img/ad1.png" alt="" class="ads">
+		</picture>
+	</a>
 
   <main>
   	
@@ -47,9 +52,16 @@
 		<section class="post">
 
 			<h1>This is a Title about Design</h1>
-	
-			<img src="img/firstBlogImg.jpg" alt="First Blog Img">
-			<img src="img/secondBlogImg.png" alt="Second Blog Img">
+			<picture>
+				<source media="(max-width: 700px)" srcset="img/firstBlogImg-small.jpg">
+				<source media="(min-width: 1062px)" srcset="img/firstBlogImg.jpg">
+				<img src="img/firstBlogImg.jpg" alt="First Blog Img">
+			</picture>
+			<picture>
+				<source media="(max-width: 700px)" srcset="img/secondBlogImg-small.png">
+				<source media="(min-width: 1062px)" srcset="img/secondBlogImg.png">
+				<img src="img/secondBlogImg.png" alt="Second Blog Img">
+			</picture>
 	
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores saepe porro totam numquam et magnam voluptatibus quae minus, laborum harum at laboriosam beatae, ducimus sapiente rem quos a enim, consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla culpa possimus accusamus. Accusantium est quis sapiente officia aspernatur fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla culpa possimus accusamus. Accusantium est quis sapiente officia aspernatur fugit.</p>
 		
@@ -70,25 +82,49 @@
 		<h2>Related Blog Posts</h2>
 		<article class="related-post">
 			<a href="#"><h2>Typography</h2></a>
-			<a href="#"><img src="img/firstblogRelated.jpg" alt="First Img Related Blog"></a>
+			<a href="#">
+				<picture>
+					<source media="(max-width: 700px)" srcset="img/firstblogRelated-small.jpg">
+					<source media="(min-width: 1062px)" srcset="img/firstblogRelated.jpg">
+					<img src="img/firstblogRelated.jpg" alt="First Img Related Blog">
+				</picture>
+			</a>
 			<p class="related-dates">20/08/17</p>
 		</article>
 
 		<article class="related-post">
 			<a href="#"><h2>Pattern Design</h2></a>
-			<a href="#"><img src="img/secondblogRelated.png" alt="Second Img Related Blog"></a>
+			<a href="#">
+				<picture>
+					<source media="(max-width: 700px)" srcset="img/secondblogRelated-small.png">
+					<source media="(min-width: 1062px)" srcset="img/secondblogRelated.png">
+					<img src="img/secondblogRelated.png" alt="Second Img Related Blog">
+				</picture>
+			</a>
 			<p class="related-dates">19/08/17</p>
 		</article>
 
 		<article class="related-post">
 			<a href="#"><h2>Geometric Design</h2></a>
-			<a href="#"><img src="img/thirdblogRelated.jpg" alt="Third Img Related Blog"></a>
+			<a href="#">
+				<picture>
+					<source media="(max-width: 700px)" srcset="img/thirdblogRelated-small.jpg">
+					<source media="(min-width: 1062px)" srcset="img/thirdblogRelated.jpg">
+					<img src="img/thirdblogRelated.jpg" alt="Third Img Related Blog">
+				</picture>
+			</a>
 			<p class="related-dates">20/09/17</p>
 		</article>
 
 	</section>
-
-	<a href="#"><img src="img/ad1.png" alt="Second Ad" class="ads"></a>
+	
+	<a href="#">
+		<picture>
+			<source media="(max-width: 700px)" srcset="img/ad1-small.png">
+			<source media="(min-width: 1062px)" srcset="img/ad1.png" class="ads">
+			<img src="img/ad1.png" alt="Second Ad" class="ads">
+		</picture>
+	</a>
 
 	<footer>
 
